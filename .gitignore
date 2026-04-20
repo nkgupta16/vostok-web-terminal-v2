@@ -1,0 +1,28 @@
+# Environment
+.env
+venv/
+venv312/
+__pycache__/
+*.pyc
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Runtime config (user-specific, should not be committed)
+ticker_config.json
+selected_tickers_config.json
+
+# Testing / Coverage
+.pytest_cache/
+.mypy_cache/
+.coverage
+htmlcov/
